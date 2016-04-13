@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Registration</title>
+  </head>
+  <body>
+
+
+    <h2>Register</h2>
+
+    <form action="radio2.html">
+    <label>First Name:<input type="text" required ></label>
+
+    <label>Last Name:<input type="text" required ></label><br />
+
+
+    <label>Male:<input type="radio" name="rad" value="male" ></label>
+
+
+    <label>Female:<input type="radio" name="rad" value="female" ></label>
+
+
+    <label>Other:<input type="radio" name="rad" value="other" ></label><br />
+
+
+    <label>Email:<input type="email" name="email" placeholder="email" required ></label>
+
+    <label>Password:<input type="password" pattern=".{0}|.{8,} }" required name="password" placeholder="password" ></label><br />
+
+
+    <label for="birthday">Birthday:
+      <select class="birthday" name="date">
+      <option>Jan</option>
+      <option>Feb</option>
+      <option>Mar</option>
+      <option>Apr</option>
+      <option>May</option>
+      <option>Jun</option>
+      <option>July</option>
+      <option>Aug</option>
+      <option>Sep</option>
+      <option>Ocb</option>
+      <option>Nov</option>
+      <option>Dec</option>
+    </select>
+
+    <select class="birthday" name="date">
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+    <option>6</option>
+    <option>7</option>
+    <option>8</option>
+    <option>9</option>
+    <option>10</option>
+    <option>11</option>
+    <option>12</option>
+  </select>
+
+  <select class="birthday" name="date">
+  <option>1980</option>
+  <option>1981</option>
+  <option>1982</option>
+  <option>1983</option>
+  <option>1984</option>
+  <option>1985</option>
+  <option>1986</option>
+  <option>1987</option>
+  <option>1988</option>
+  <option>1990</option>
+  <option>1991</option>
+  <option>1992</option>
+</select>
+
+
+  </label><br />
+
+
+    <label>I agree with the terms and codintions <input type="checkbox" required ></label><br / >
+    <input type="submit">
+
+    </form>
+  </body>
+</html>
